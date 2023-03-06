@@ -1,0 +1,103 @@
+@media(max-width:1165px) {
+    body {
+        background: url('../images/bg-mobile.svg') center center no-repeat;
+        background-size: cover;
+    }
+    .container {
+        display: flex;
+        flex-direction: column;
+    }
+    .container .imagem-principal {
+        padding: 0;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .container .infor h1,
+    h2 {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .container .infor,
+    .botao {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .container .infor p {
+        font-size: 20px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+    }
+    .container .infor .botao {
+        padding: 8px 60px;
+    }
+    .social {
+        display: flex;
+        justify-content: center;
+        padding-left: 80px;
+        padding-bottom: 80px;
+    }
+}
+
+@media(max-width:700px) {
+    .container .imagem-principal {
+        width: 340px;
+        height: 250px;
+        padding: 20px;
+    }
+    .container .infor h1,
+    h2 {
+        font-size: 25px;
+        line-height: 34px;
+    }
+    .container .infor .botao {
+        padding: 6px 60px;
+    }
+}
+
+@media(max-width:395px) {
+    .container .imagem-principal {
+        width: 300px;
+        height: 210px;
+        margin: 0;
+    }
+    .container .infor {
+        padding: 0;
+        margin: 0;
+    }
+    .container .infor h1,
+    h2 {
+        font-size: 25px;
+    }
+
+    .container .infor p {
+        padding: 20px;
+        margin: 0;
+    }
+    .container .infor .botao {
+        padding: 2px 15px;
+        margin: 0;
+    }
+    .social {
+        padding-bottom: 50px;
+    }
+}
+
+@media(max-width:280px) {
+    .logo {
+        padding: 0;
+    }
+    .container .imagem-principal {
+        width: 240px;
+        height: 210px;
+    }
+    .container .infor p {
+        padding: 20px;
+        font-size: 18px;
+        margin: 0;
+    }
+}
