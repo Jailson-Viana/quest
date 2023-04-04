@@ -1,70 +1,91 @@
-html{
-   background-color:hsl(257, 40%, 49%);
+html {
+   background-color: hsl(257, 40%, 49%);
    font-family: 'Poppins', sans-serif;
 }
 
-body{
-   background: url('../images/bg-desktop.svg') center center no-repeat;
+.container-principal{
+   height: 100vh;
+   background-repeat: no-repeat;
    background-size: cover;
+   background-position: center;
+   max-width: 1440px;
 }
-.logo{
-   padding-top: 20px;
-   padding-left: 30px;
-   padding-bottom: 35px;
+.container-segundario{
+   background-image: url('../images/bg-desktop.svg');
+   min-height: 100%;
 }
-.container{
-    display: flex;
-    align-items: center;
-    justify-content: center; 
+.logo {
+   padding-top: 40px;
+   padding-left: 70px;
+   padding-bottom: 80px;
 }
-.container .imagem-principal{
-   width: 550px;
-   height: 410px;
-   padding-left: 40px;
-} 
-.container .infor{
+
+.container {
+   display: flex;
+   align-items: center;
+   justify-content: center;
+}
+
+.container .imagem-principal {
+   margin-left: 70px;
+}
+
+.container .infor {
    height: 360px;
-   margin: 20px;
-   padding: 20px;
+   margin-bottom: 60px;
+   padding-left: 35px;
+   padding-right: 31px;
 }
-.container .infor h1, h2{
+
+.container .infor h1,
+h2 {
    color: #fff;
    font-size: 35px;
    font-weight: 600;
-   line-height: 45px;
-   text-align: left;
+   line-height: 48px;
 }
-.container .infor p{
+
+.container .infor p {
    color: #fff;
    margin: 25px 0;
    line-height: 30px;
 }
-.container .infor .botao{
+
+.container .infor .botao {
    background-color: #fff;
-   color:hsl(257, 40%, 49%);
-   padding: 9px 40px;
+   color: hsl(257, 40%, 49%);
+   padding: 10px 45px;
    border-radius: 20px;
+   border: 1px solid;
+   cursor: pointer;
    transition: 0.3s ease-in-out;
+   font-size: 20px;
+   box-shadow: 3px 3px 3px #000;
 }
-.container .infor .botao:hover{
+
+.container .infor .botao:hover {
    color: #fff;
-   background-color: deeppink;
+   background-color: hsl(300, 69%, 71%);
+   border: none;
 }
-.social{
+
+.social {
    text-align: right;
-   padding-right:80px;
-   padding-bottom:8px;
+   padding-right: 80px;
+   padding-bottom: 8px;
    margin-left: 10px;
 }
-.social a{
-   border: 1px solid #fff;
-   border-radius: 100%;
+
+.social a {
+   border: 1.5px solid #fff;
+   border-radius: 50%;
    color: #fff;
-   padding: 8px;
-   font-size: 15px;
-   margin: 5px;
+   padding: 7px;
+   font-size: 8px;
+   margin: 4px;
+   transition: all 0.2s ease-in-out;
 }
-.social a:hover{
-   background-color: deeppink;
-   opacity: 0.5;
+.social a:hover {
+   background-color: hsl(300, 69%, 71%);
+   opacity: 1;
 }
